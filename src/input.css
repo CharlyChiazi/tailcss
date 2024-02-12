@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.altera{
+    background-color: aqua;
+    color: black;
+    font-size: 1.7em;
+   
+} 
