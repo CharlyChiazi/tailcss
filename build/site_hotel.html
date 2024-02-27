@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Hotel</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body class="font-medium bg-gray-200">
+        <!-- abertura header  -->
+        <header class=" font-serif bg-blue-900">
+
+            <div 
+            class="container max-w-5xl m-auto px-3 py-4  flex w-full
+            justify-between items-center ">
+                <div>
+                    <span>
+                        <a class="hover:w-28" target="_blank" href="https:www.google.com">
+                            <img src="../img/logo.png" alt="achoLogo"
+                            class="w-24 ">
+                        </a>
+                    </span>
+                </div>
+                
+                <nav>
+                    <ul class=" text-lg text-gray-100 space-x-2">
+                        <li class="inline-block">
+                            <a class="hover:text-gray-300"
+                            href="https:www.google.com" target="_blank">
+                            Home
+                        </a>
+                        </li>
+
+                        <li class="inline-block">
+                            <a class="hover:text-gray-300" 
+                            href="#">Produtos</a>
+                        </li>
+
+                        <li class="inline-block">
+                            <a class="hover:text-gray-300"
+                             href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+         <!-- fecho header / -->
+        <!-------------------------------------------------- -->
+
+          <!-- abertura main BANNER  -->
+        <main class="text-gray-300 font-extralight h-96 w-full">
+
+            <section style="background-image: url('../img2/hero-image-1.png');" 
+            class="bg-white container m-auto p-4 flex
+            justify-center items-center h-full max-w-5xl">
+
+                <div class=" text-center py-1 space-y-6">
+                    <div>
+                        <h2 class="text-2xl text-gray-100">
+                            Onde você quer ir?
+                        </h2>
+                    </div>
+
+                    <div>
+                        <p>  
+                            Escolha o Estado e a Cidade para achar os melhores resorts
+                        </p>
+                    </div>
+
+                   <form class="grid grid-cols-2 gap-4 md:grid-cols-3" >
+
+                        <select class="py-2 rounded ring me-2" id="cidade">
+                            <option value="">
+                                Escolha um Estado
+                            </option>
+                            <option value="">
+                                Esta eh uma opcao
+                            </option>
+                        </select>
+
+                        <select class="py-2 rounded ring me-2"  id="">
+                            <option value="">
+                                Escolha uma cidade
+                            </option>
+                            <option value="">
+                                Esta eh a uma opcao2
+                            </option>
+                        </select>
+
+                        <button 
+                        class="bg-orange-500 py-2 px-2 rounded text-white hover:ring-2 hover:font-serif inline-flex items-center col-span-2 md:col-span-1 justify-center">
+
+                        <svg class="w-6 me-2 " data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
+                          </svg>    
+
+                        Pesquisar Resorts 
+                        </button>
+                   </form>
+                  
+                </div> 
+            </section>
+        </main>
+          <!-- fecho main BANNER / -->
+          <!-------------------------------------------------- -->
+
+
+           <!-- abertura main DESTAQUE  -->
+          <main class="">
+                <section class=" container m-auto px-4 py-8 max-w-5xl">
+                    <div class="flex flex-col-reverse md:flex-row justify-center items-center space-x-4 text-gray-600">
+                        <div class="border md:px-2 space-y-6 w-[450px]">
+                            <div>Resort em destaque</div>
+
+                            <div>ECORESORT Praia Forte da Bahia</div>
+
+                            <div class="text-justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, tempora.
+
+                            </div>
+                            <div>
+                                <button 
+                                class="bg-orange-500 py-2 rounded text-white hover:ring-2 hover:font-serif inline-flex items-center px-2 ">
+        
+                                <svg class="w-6 me-2" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"></path>
+                                  </svg>   
+        
+                                Solicitar reserva 
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="md:ml-auto mb-4 md:mb-0">
+                               
+                                <img src="../img/mundo.jpg" alt="grandImangee">
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <!-- abertura SECTION  GRID  -->
+                <section>
+
+                    <div class="border container m-auto max-w-5xl">
+                        <div>
+                            <h3 class="text-center text-lg text-gray-700 font-semibold mb-6">Conheca mais Resort</h3>
+
+                            <div class=" md:grid md:grid-cols-4 md:grid-rows-2 md:gap-4 space-y-4 md:space-y-0">
+                                <!--ABERTURA DIV SHADOW 1-->
+                                <div class="relative bg-red-200 md:col-span-2 md:row-span-2 rounded-lg overflow-hidden ">
+                                    <div class="absolute bottom-0 pl-4 pb-4 text-gray-100 font-bold z-20">
+                                        Beach Park Resort 
+                                    </div>
+
+                                    <img src="../img2/image-shadow.png" class="absolute bottom-0 right-0 left-0 md:h-20 z-10">
+
+                                   <img src="../img2/hotel-1.jpeg"  alt="imagem1"
+                                   class="w-full h-full object-cover">
+
+                                </div> <!--FECHO DIV SHADOW 1 /-->
+                                
+                                <div class="bg-red-200 md:col-span-2 h-40 rounded-lg overflow-hidden relative"><!--ABERTURA DIV SHADOW 2-->
+
+                                  
+                                    <div class="absolute bottom-0 pl-4 pb-4 text-gray-100 font-bold z-20">
+                                        Arraial d' Ajuda Eco resort
+                                    </div>
+
+                                    <img src="../img2/image-shadow.png" class="absolute bottom-0 right-0 left-0 md:h-20 z-10">
+
+                                    <img src="../img2/hotel-2.jpeg" alt="imagem2"
+                                    class="w-full h-full object-cover ">
+
+                                </div><!--FECHO DIV SHADOW 2 /-->
+
+                                <div class="bg-red-200 rounded-lg overflow-hidden relative"><!--ABERTURA DIV SHADOW 3-->
+
+                                    <div class="absolute bottom-0 pl-4 pb-2 text-gray-100 font-bold z-20">
+                                        Grand Palladium
+                                    </div>
+
+                                    <img src="../img2/image-shadow.png" class="absolute bottom-0 right-0 left-0 md:h-20 z-10">
+
+                                    <img src="../img2/hotel-3.jpeg" alt="imagem3"
+                                    class="w-full h-full object-cover">
+                                </div><!--FECHO DIV SHADOW 3/-->
+
+                                <div class="bg-red-200 rounded-lg overflow-hidden relative"><!--ABERTURA DIV SHADOW 4-->
+                                    <div class="absolute bottom-0 pl-4 pb-4 text-gray-100 font-bold z-20 ">
+                                        Salinas do Maragogi Resort 
+                                    </div>
+
+                                    <img src="../img2/image-shadow.png" class="absolute bottom-0 right-0 left-0 h-20 z-10">
+
+                                   <img src="../img2/hotel-4.jpeg" alt="imagem4"
+                                   class="w-full h-full object-cover">
+                                </div> <!--FECHO DIV SHADOW 4 /-->
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                 <!-- fecho SECTION  GRID / -->
+
+                
+                <section class="my-20"> <!-- ABERTURA SECTION  FORM SEARCH / -->
+                    <div class="container m-auto flex justify-center items-center max-w-5xl">
+                        <form class="grid grid-cols-2 gap-4 md:grid-cols-3" >
+
+                            <select class="py-2 rounded ring me-2" id="cidade">
+                                <option value="">
+                                    Escolha um Estado
+                                </option>
+                                <option value="">
+                                    Esta eh uma opcao
+                                </option>
+                            </select>
+    
+                            <select class="py-2 rounded ring me-2"  id="">
+                                <option value="">
+                                    Escolha uma cidade
+                                </option>
+                                <option value="">
+                                    Esta eh a uma opcao2
+                                </option>
+                            </select>
+    
+                            <button 
+                            class="bg-orange-500 py-2 px-2 rounded text-white hover:ring-2 hover:font-serif inline-flex items-center col-span-2 md:col-span-1 justify-center">
+    
+                            <svg class="w-6 me-2 " data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"></path>
+                              </svg>    
+    
+                            Pesquisar Resorts 
+                            </button>
+                       </form>
+                </section><!-- FEECHO SECTION  FORM SEARCH / -->
+
+            </main> <!-- FECHO main DESTAQUE / -->
+
+
+          <footer class="bg-blue-900 h-16 border text-gray-200 font-mono ">
+            <div class="container p-4 m-auto flex justify-between items-center max-w-5xl">
+                
+                <div class="text-gray-100">
+                    By: @Charly @copy Todos os direitos reservados
+                </div>
+                <!-- -------------------------------------- -->
+
+                <div class="flex items-center space-x-3">
+
+                    <a class="ring-1" href="https:ww.facebook.com">
+                        <img src="../img2/icon-facebook.png" alt="facebook1">
+                    </a>
+
+                   <!-- ---------------------------- -->
+                    <a class="ring-1" href="https:www.instagram.com">
+                        <img src="../img2/icon-instagram.png" alt="instagram">
+                    </a>
+                </div>
+            </div>
+        
+          </footer>
+            <br> <br>
+            <br> <br>
+</body>
+</html>
+
+

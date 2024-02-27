@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body class="bg-gray-300 h-screen flex justify-center items-center">
+
+    <section 
+    class="bg-gray-100 w-[350px] border border-yellow-300 rounded 
+    py-4 px-2 bg-gradient-to-r from-yellow-500 to-red-500 
+    font-serif font-bold
+    ">
+        <div class="w-[100px] h-[100px] border-transparent rounded-full text-center flex m-auto justify-center">
+            <div class="self-center">
+                <img src="../img/logo.png" alt="logotipo">
+            </div>
+        </div>
+        <h2 class="text-center text-lg  my-2"> Formulario</h2>
+
+        <form class="text-sm space-y-6">
+            <div class="">
+                <label for="email">Email</label>
+                <input 
+                class="p-2 rounded block w-full ring-2 ring-sky-300"
+                 type="text" id="email" placeholder="digite seu email">
+            </div>
+
+            <div class="">
+                <label for="password">Senha</label>
+                <input 
+                class="p-2 rounded block w-full ring-2 ring-sky-300 "
+                 type="text"  id="password" placeholder="digite sua senha">
+
+            </div>
+
+            <div>
+                <button class="bg-sky-300 text-gray-100 p-2 rounded-md w-full transition duration-500 ease-in-out
+                hover:ring-1 hover:ring-sky-300
+                ">
+                    Logar
+                </button>
+            </div>
+
+            <div class="pb-2 ">
+                <a class="text-white font-normal hover:underline hover:bg-sky-300  hover:text-lg hover:rounded transitox"
+                 href="#">
+                    esqueceu sua senha?
+                </a>
+            </div>
+
+
+        </form>
+    </section>
+</body>
+</html>
